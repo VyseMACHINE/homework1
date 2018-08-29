@@ -14,6 +14,14 @@ namespace ConsoleApp1
             Console.ForegroundColor = ConsoleColor.Yellow;
 
             Console.WriteLine("Введите свое имя: ");
+
+            string name = Console.ReadLine();
+
+            Console.WriteLine(name);
+
+            Console.WriteLine();
+
+
         }
     }
 }
